@@ -1,7 +1,9 @@
+import hero from '../img/hero-bg.jpg';
+
 const Home = () => {
     return (
-        <div>
-            <h1>Bienvenue sur mon site !</h1>
+        <div className="">
+            <img src={hero} alt='bannière'></img>
         </div>
     )
 }

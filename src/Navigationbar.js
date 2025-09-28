@@ -14,7 +14,7 @@ import Legal from './pages/Legal';
 function Navigationbar() {
   return (
     <>
-      <Navbar expand="lg" className="bg-body-tertiary" fixed="top">
+      <Navbar bg="dark" variant="dark" expand="lg"  fixed="top">
         <Container>
           <Navbar.Brand as={Link} to="/">Jeanne Doe</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
